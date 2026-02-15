@@ -8,7 +8,7 @@ import streamlit as st
 from db import (
     init_db, get_all_users, create_user, get_user_by_id,
     get_user_skills, SKILL_NAMES, count_questions,
-    get_or_create_user_from_oidc,
+    get_or_create_user_from_oidc, create_user_with_password, verify_password_for_user,
 )
 import os
 from srs import get_study_stats
@@ -172,11 +172,58 @@ def _show_profile_picker():
         # st.user is provided by Streamlit auth
         if not hasattr(st, "user") or not st.user.is_logged_in:
             st.markdown("### Sign in")
-            if st.button("Sign in"):
-                # Redirect to configured OIDC provider (uses [auth] in secrets.toml)
-                st.login()
-            st.markdown("---")
-            st.info("This app uses OpenID Connect (e.g. Google/Microsoft) to authenticate users. Configure providers in `.streamlit/secrets.toml`.")
+            col1, col2 = st.columns(2)
+            with col1:
+                st.markdown("**Sign in with Google / OIDC**")
+                if st.button("Sign in with Google"):
+                    # Redirect to configured OIDC provider (uses [auth] in secrets.toml)
+                    st.login()
+                st.markdown("---")
+                st.info("This app supports Google sign-in. Configure providers in Streamlit Secrets.")
+
+            with col2:
+                st.markdown("**Sign in with email**")
+                with st.form("local_login"):
+                    email = st.text_input("Email / Display name")
+                    password = st.text_input("Password", type="password")
+                    submitted = st.form_submit_button("Sign in")
+                    if submitted:
+                        try:
+                            user = verify_password_for_user(email, password)
+                        except Exception:
+                            user = None
+                        if user:
+                            st.session_state["user_id"] = user["id"]
+                            st.session_state["user_name"] = user["display_name"]
+                            st.session_state["user_avatar"] = user.get("avatar", "🩺")
+                            st.experimental_rerun()
+                        else:
+                            st.error("Invalid credentials or user does not exist.")
+
+                st.markdown("---")
+                st.markdown("**Create an account**")
+                with st.form("local_register"):
+                    reg_name = st.text_input("Display name", key="reg_name")
+                    reg_password = st.text_input("Password", type="password", key="reg_pw")
+                    reg_password2 = st.text_input("Confirm password", type="password", key="reg_pw2")
+                    reg_sub = st.form_submit_button("Create account")
+                    if reg_sub:
+                        if not reg_name or not reg_password:
+                            st.error("Please provide a display name and password.")
+                        elif reg_password != reg_password2:
+                            st.error("Passwords do not match.")
+                        else:
+                            try:
+                                uid = create_user_with_password(reg_name, reg_password)
+                                user = get_user_by_id(uid)
+                                st.session_state["user_id"] = user["id"]
+                                st.session_state["user_name"] = user["display_name"]
+                                st.session_state["user_avatar"] = user.get("avatar", "🩺")
+                                st.success("Account created and signed in.")
+                                st.experimental_rerun()
+                            except Exception as e:
+                                st.error(f"Could not create account: {e}")
+
             st.stop()
 
         # Map the OIDC identity to a local user row

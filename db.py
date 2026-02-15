@@ -9,6 +9,7 @@ import uuid
 import os
 from datetime import date, datetime
 from typing import Optional
+import bcrypt
 
 # Support optional Postgres via DATABASE_URL (e.g., Supabase) while keeping
 # SQLite fallback for local dev. When DATABASE_URL is set, psycopg is used
@@ -95,6 +96,10 @@ def init_db():
             """
         )
         conn.commit()
+        # Ensure password/session columns exist for users table
+        cur.execute("ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash TEXT;")
+        cur.execute("ALTER TABLE users ADD COLUMN IF NOT EXISTS session_token TEXT;")
+        conn.commit()
         cur.close()
         conn.close()
         return
@@ -106,6 +111,8 @@ def init_db():
         display_name TEXT NOT NULL UNIQUE,
         avatar TEXT NOT NULL DEFAULT '🧑‍⚕️',
         external_id TEXT,
+        password_hash TEXT,
+        session_token TEXT,
         created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
@@ -157,6 +164,19 @@ def init_db():
     """)
     conn.commit()
     conn.close()
+
+
+def _ensure_sqlite_user_columns(conn: sqlite3.Connection):
+    # Add missing user columns if necessary (safe for existing DB)
+    cur = conn.cursor()
+    cur.execute("PRAGMA table_info(users)")
+    cols = [r[1] for r in cur.fetchall()]
+    if 'password_hash' not in cols:
+        cur.execute("ALTER TABLE users ADD COLUMN password_hash TEXT;")
+    if 'session_token' not in cols:
+        cur.execute("ALTER TABLE users ADD COLUMN session_token TEXT;")
+    conn.commit()
+    cur.close()
 
 
 # ─── Question CRUD ───────────────────────────────────────────────
@@ -347,6 +367,20 @@ def create_user(display_name: str, avatar: str = "🧑‍⚕️") -> str:
     conn.execute(
         "INSERT INTO users (id, display_name, avatar) VALUES (?,?,?)",
         (uid, display_name.strip(), avatar),
+    )
+    conn.commit()
+    conn.close()
+    return uid
+
+
+def create_user_with_password(display_name: str, password: str, avatar: str = "🧑‍⚕️") -> str:
+    """Create a new local user with a password (hashed with bcrypt)."""
+    uid = str(uuid.uuid4())
+    pw_hash = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+    conn = get_conn()
+    conn.execute(
+        "INSERT INTO users (id, display_name, avatar, password_hash) VALUES (?,?,?,?)",
+        (uid, display_name.strip(), avatar, pw_hash),
     )
     conn.commit()
     conn.close()
