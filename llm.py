@@ -28,7 +28,23 @@ from knowledge import (
 
 load_dotenv()
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Prefer environment variable, fall back to Streamlit secrets if available.
+def _init_openai_client():
+    import os
+    api_key = os.getenv("OPENAI_API_KEY")
+    try:
+        # If running inside Streamlit, secrets may be set via the app UI.
+        import streamlit as _st
+        api_key = api_key or _st.secrets.get("OPENAI_API_KEY")
+    except Exception:
+        # Not running inside Streamlit or secrets not available.
+        pass
+
+    if not api_key:
+        return None
+    return OpenAI(api_key=api_key)
+
+client = _init_openai_client()
 
 MODEL = get_model()
 
@@ -58,6 +74,13 @@ def _call_structured(system: str, user: str, schema: dict,
             },
         }
     }
+    # Ensure OpenAI client is available
+    if client is None:
+        raise RuntimeError(
+            "OpenAI client is not configured. Set the OPENAI_API_KEY environment variable "
+            "or add OPENAI_API_KEY to Streamlit secrets."
+        )
+
     try:
         resp = client.responses.create(
             model=MODEL,
