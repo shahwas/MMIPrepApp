@@ -1,0 +1,29 @@
+{
+  "uploaded_files": {
+    "question_writer": {
+      "status": "uploaded",
+      "file_id": "file-AxAG5GhhNgVv66dm9Kp56c",
+      "filename": "mmi_sft_questionwriter.jsonl"
+    }
+  },
+  "upload_timestamp": "2026-02-15T00:06:21.738353",
+  "fine_tuning_jobs": {
+    "coach": {
+      "status": "created",
+      "job_id": "ftjob-Hry8hHI2tkVWTZKqqpHSXOP0",
+      "model": "gpt-4o-mini-2024-07-18",
+      "method": "supervised"
+    },
+    "question_writer": {
+      "status": "created",
+      "job_id": "ftjob-eTMwknCp1ssxXGJYuWf51owS",
+      "model": "gpt-4o-mini-2024-07-18",
+      "method": "supervised"
+    },
+    "answer_quality": {
+      "status": "failed",
+      "error": "Error code: 400 - {'error': {'message': 'Invalid model gpt-4o-mini-2024-07-18 for method dpo', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_allowed'}}"
+    }
+  },
+  "jobs_timestamp": "2026-02-14T23:49:21.846318"
+}

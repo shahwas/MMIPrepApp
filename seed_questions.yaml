@@ -1,0 +1,1380 @@
+# ──────────────────────────────────────────────────────────────────
+# MMI Prep - Seed Question Bank  (~120 prompts)
+# Written in immersive, narrative MMI style matching training data.
+# Each prompt: second-person scenario, vivid details, clear ask.
+# Tagged by archetype + difficulty (1-5) + skill targets
+# ──────────────────────────────────────────────────────────────────
+
+# ═══════════════════════════════════════════════════════════════════
+# ETHICAL DILEMMA  (18 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: ethical_dilemma
+  difficulty: 1
+  prompt: >
+    Your close friend applied to the same medical school as you. While
+    celebrating after she receives an interview invitation, she casually
+    mentions that she exaggerated a volunteer experience on her
+    application — listing six months when she only attended twice. She
+    laughs it off, saying "everyone does it." You know the admissions
+    committee takes integrity seriously. What do you do?
+  tags: [honesty, loyalty, professionalism]
+
+- archetype: ethical_dilemma
+  difficulty: 2
+  prompt: >
+    You are writing a proctored final exam in a large lecture hall. Midway
+    through, you notice the student seated next to you has a small
+    piece of paper tucked under their calculator with formulas written on
+    it. You make brief eye contact and they quickly cover it. The proctor
+    hasn't noticed. This student is a classmate you've studied with all
+    semester and you know they've been struggling with family issues.
+    What do you do?
+  tags: [academic_integrity, peer_relations, duty_to_report]
+
+- archetype: ethical_dilemma
+  difficulty: 2
+  prompt: >
+    A group of physicians at a major urban hospital have announced a
+    one-day strike to protest unsafe staffing levels, arguing that
+    chronically overworked doctors pose a greater long-term risk to
+    patients. The hospital administration calls it irresponsible. Some of
+    your colleagues support the strike; others say doctors should never
+    walk off the job. Emergency services will still operate, but clinics
+    and elective procedures will be cancelled, affecting hundreds of
+    patients. What is your position, and how do you justify it?
+  tags: [patient_welfare, physician_rights, public_health]
+
+- archetype: ethical_dilemma
+  difficulty: 3
+  prompt: >
+    You are a family medicine resident. During a routine visit, your
+    patient — a 28-year-old man — tells you he was recently diagnosed
+    with HIV. He is visibly upset and asks you to keep it completely
+    confidential. When you gently ask whether he has informed his
+    partner, he becomes agitated and says he hasn't and doesn't plan
+    to, because she would leave him. You know his partner is also a
+    patient at your clinic. What do you do?
+  tags: [confidentiality, duty_to_warn, autonomy]
+
+- archetype: ethical_dilemma
+  difficulty: 3
+  prompt: >
+    You are a second-year medical student doing a clinical placement.
+    One afternoon, you notice that Dr. Patel, a well-respected staff
+    physician, smells strongly of alcohol during afternoon rounds. He
+    seems slightly unsteady but is functioning and none of the nurses
+    have said anything. A colleague whispers to you, "I think he's just
+    tired." You have a patient assessment to present to Dr. Patel in
+    twenty minutes. What do you do?
+  tags: [patient_safety, colleague_wellbeing, reporting]
+
+- archetype: ethical_dilemma
+  difficulty: 4
+  prompt: >
+    You are a graduate researcher in a neuroscience lab. Your
+    supervisor has just secured a $2-million grant from a pharmaceutical
+    company to study their new antidepressant. During a lab meeting,
+    your supervisor casually mentions that the company wants to review
+    all findings before publication and has the right to delay results
+    they consider "commercially sensitive." Your preliminary data
+    suggests the drug may have a serious cardiac side-effect that
+    wasn't in their initial safety profile. What do you do?
+  tags: [conflict_of_interest, research_ethics, funding]
+
+- archetype: ethical_dilemma
+  difficulty: 4
+  prompt: >
+    You are a family doctor. Fifteen-year-old Maya comes to your office
+    alone and tells you she is eight weeks pregnant. She is clearly
+    frightened and begs you not to tell her parents, explaining that her
+    father is very strict and she fears his reaction. She says she wants
+    to explore her options. Under the law in your jurisdiction, a mature
+    minor can consent to medical treatment, but Maya seems unsure and
+    overwhelmed. Her mother calls your office that afternoon, asking
+    why Maya came in. How do you navigate this?
+  tags: [minor_consent, confidentiality, family_dynamics]
+
+- archetype: ethical_dilemma
+  difficulty: 5
+  prompt: >
+    Mr. Thompson is a 72-year-old man with metastatic pancreatic
+    cancer. After months of chemotherapy, he tells you he is at peace
+    and wants to stop all treatment. He has completed a formal request
+    for medical assistance in dying (MAID), which is legal in your
+    jurisdiction and meets all criteria. His wife and adult children are
+    devastated and beg you to talk him out of it. His daughter says,
+    "You're supposed to save lives, not end them." Mr. Thompson is
+    calm and clear-headed. His family threatens to file a complaint if
+    you proceed. How do you approach this?
+  tags: [end_of_life, autonomy, family_conflict, legal]
+
+- archetype: ethical_dilemma
+  difficulty: 2
+  prompt: >
+    You are a third-year medical student on a surgery rotation. The
+    attending surgeon asks you to assist in a late-term abortion. You
+    have strong personal and religious objections to the procedure. The
+    patient is in the room and clearly anxious. There is no other
+    medical student available to step in. The attending seems impatient.
+    What do you do?
+  tags: [conscience, professional_obligation, education]
+
+- archetype: ethical_dilemma
+  difficulty: 3
+  prompt: >
+    You are a junior resident at a teaching hospital. Over the past two
+    weeks, you've noticed that Dr. Chen, a senior internist with
+    30 years of experience, has been consistently ordering outdated
+    antibiotic regimens for pneumonia patients. Current guidelines
+    recommend a different protocol. No patients have been harmed yet,
+    but you're concerned. You mention it to a nurse, who shrugs and
+    says, "That's just how Dr. Chen has always done it." What do you do?
+  tags: [hierarchy, patient_safety, reporting, professionalism]
+
+- archetype: ethical_dilemma
+  difficulty: 1
+  prompt: >
+    Your aunt, who you are very close to, calls you excitedly after
+    learning you've been accepted to medical school. She asks if you
+    could "take a quick look" at a rash she's had for weeks. She says
+    she trusts you more than her own doctor and would rather not wait
+    for an appointment. You haven't started medical school yet, but you
+    did take biology courses and she insists it's probably nothing. What
+    are your concerns, and how do you respond?
+  tags: [boundaries, objectivity, dual_relationships]
+
+- archetype: ethical_dilemma
+  difficulty: 3
+  prompt: >
+    A patient you've been seeing for three months comes in convinced
+    that a supplement she found on a wellness blog will cure her
+    chronic migraines. She has printed six pages of testimonials and
+    wants you to prescribe it. You've reviewed the evidence and it
+    shows no benefit, with potential liver toxicity at the doses she's
+    describing. She says, "It's my body and my choice." She has
+    already ordered the supplement online. How do you handle this
+    conversation?
+  tags: [autonomy, evidence_based, communication]
+
+- archetype: ethical_dilemma
+  difficulty: 4
+  prompt: >
+    You are a researcher in a large genomics study. While running
+    routine analyses, you discover that one participant carries a gene
+    variant strongly associated with early-onset Alzheimer's disease.
+    The study's consent form states that individual genetic results will
+    not be shared with participants. However, this person is only 34
+    and could potentially benefit from early planning. Disclosing could
+    also affect their insurance and employment. What do you do?
+  tags: [genetic_privacy, research_ethics, duty_to_inform]
+
+- archetype: ethical_dilemma
+  difficulty: 2
+  prompt: >
+    After a long overnight shift, you post a photo on Instagram of
+    yourself in scrubs in the hospital hallway with the caption, "24
+    hours straight — this is what it takes." A colleague points out that
+    a patient's whiteboard with their first name is barely visible in the
+    background. The post has already gotten 200 likes. What do you do?
+  tags: [professionalism, privacy, social_media]
+
+- archetype: ethical_dilemma
+  difficulty: 5
+  prompt: >
+    It is the peak of a respiratory virus pandemic. Your ICU has one
+    remaining ventilator. Two patients arrive within minutes of each
+    other, both in acute respiratory failure. Patient A is a 32-year-old
+    mother of two young children with no comorbidities. Patient B is a
+    68-year-old retired nurse who volunteered to come back and help
+    during the pandemic and contracted the virus while caring for
+    patients. The triage protocol at your hospital is based solely on
+    likelihood of survival, and both patients have similar prognoses.
+    How do you approach this decision?
+  tags: [resource_allocation, ageism, triage, pandemic]
+
+- archetype: ethical_dilemma
+  difficulty: 3
+  prompt: >
+    You are a medical student who discovers that a popular anatomy
+    atlas used in your program was created using illustrations traced
+    from dissections performed on victims of the Nazi regime. The
+    textbook is considered the gold standard and is used worldwide.
+    Some classmates want to petition the school to stop using it; others
+    argue that abandoning it would waste the knowledge and dishonor
+    the victims differently. What is your view?
+  tags: [historical_ethics, education, complicity]
+
+- archetype: ethical_dilemma
+  difficulty: 2
+  prompt: >
+    You are a family medicine resident. A patient you've seen several
+    times — a kind, elderly woman — asks whether you believe abortion
+    is morally acceptable. She is not pregnant and has no medical
+    reason for asking; she's asking your personal opinion. You hold
+    strong views on the topic. How do you respond, and where do you
+    draw the line between your personal beliefs and your professional
+    role?
+  tags: [conscientious_objection, patient_access, autonomy]
+
+- archetype: ethical_dilemma
+  difficulty: 3
+  prompt: >
+    A wealthy local businessman offers a $500,000 donation to your
+    hospital's children's ward — on the condition that his mother, who
+    is on a long waiting list for a knee replacement, is moved to the
+    top of the queue. The ward desperately needs the funds; several
+    programs will be cut without them. The hospital CEO asks for your
+    opinion at a staff meeting. What do you say?
+  tags: [fairness, corruption, equity, institutional_ethics]
+
+# ═══════════════════════════════════════════════════════════════════
+# ROLEPLAY  (14 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: roleplay
+  difficulty: 1
+  prompt: >
+    You are a receptionist at a walk-in medical clinic. A middle-aged
+    woman storms up to the counter, visibly upset. She says, "I've been
+    sitting in that waiting room for two and a half hours. My back is
+    killing me and nobody has told me anything. This is ridiculous."
+    Other patients in the waiting room are watching. The doctor is still
+    with another patient and you're not sure how much longer it will be.
+    Interact with this patient.
+  tags: [frustration, empathy, de-escalation]
+
+- archetype: roleplay
+  difficulty: 2
+  prompt: >
+    You are a nurse in a pediatric emergency department. A mother
+    rushes in carrying her four-year-old son who has a small scrape on
+    his knee from falling off his bike. The wound clearly doesn't require
+    stitches, but the mother is trembling and insisting on an X-ray, a
+    blood test, and a full examination. She says, "Last time we were
+    told it was nothing and he ended up with an infection." Have a
+    conversation with this mother.
+  tags: [parental_anxiety, reassurance, resource_stewardship]
+
+- archetype: roleplay
+  difficulty: 3
+  prompt: >
+    You are a surgeon. Three days ago, you performed a gallbladder
+    removal on a 45-year-old woman. The surgery went well, but she
+    developed a bile duct leak — a known complication that occurs in
+    about 1 in 200 cases. She is now in significant pain and needs a
+    second procedure. Her husband has arrived and is furious, saying,
+    "You butchered my wife. We're going to sue." The patient is lying
+    in bed, crying quietly. Talk to this family.
+  tags: [complaint, liability, empathy, de-escalation]
+
+- archetype: roleplay
+  difficulty: 3
+  prompt: >
+    You are a family doctor. Your patient, Mrs. Garcia, is a 58-year-old
+    schoolteacher who came in for routine bloodwork. The results show
+    a large mass on her liver that is highly suspicious for cancer. She
+    has come in today expecting normal results and is in a cheerful
+    mood, telling you about her upcoming retirement party. You need to
+    share these results with her. Begin the conversation.
+  tags: [bad_news, empathy, communication, SPIKES]
+
+- archetype: roleplay
+  difficulty: 4
+  prompt: >
+    You are a second-year resident. While examining a patient in a
+    shared ward, Dr. Morrison — a senior colleague — storms in and
+    says loudly in front of the patient and two nurses, "Did you
+    seriously order a CT without consulting me first? That's completely
+    unacceptable." You believe the CT was warranted based on the
+    patient's symptoms, and you had tried to page Dr. Morrison twice
+    without a response. Respond to this situation.
+  tags: [conflict, professionalism, de-escalation, workplace]
+
+- archetype: roleplay
+  difficulty: 2
+  prompt: >
+    You are a home care nurse visiting Mr. Okafor, an 82-year-old man
+    with type 2 diabetes who lives alone. On your visit, you notice his
+    pill organizer is mostly full — he hasn't been taking his medications
+    for what looks like several days. When you ask, he says, "Those
+    pills make me feel terrible. I'd rather enjoy what time I have left."
+    His daughter, who is present today, crosses her arms and says,
+    "Dad, you have to take them." Talk to Mr. Okafor.
+  tags: [adherence, autonomy, empathy, elderly]
+
+- archetype: roleplay
+  difficulty: 4
+  prompt: >
+    You are a physician in a hospital. Mr. Singh has been admitted with
+    pneumonia and is stable but needs further testing. His wife arrives
+    and approaches you in the hallway, saying, "I'm his wife. I need to
+    know exactly what's wrong with him. What did the tests show?" Mr.
+    Singh explicitly told you this morning that he doesn't want his wife
+    to know his full diagnosis until he's ready to tell her himself. Mrs.
+    Singh is becoming increasingly agitated. Interact with her.
+  tags: [confidentiality, family, boundaries, empathy]
+
+- archetype: roleplay
+  difficulty: 1
+  prompt: >
+    You are studying with your roommate, Jamie, during exam season.
+    Over the past week, Jamie has stopped eating, barely leaves the
+    room, and hasn't slept properly. Tonight, while you're reviewing
+    notes, Jamie suddenly says in a flat voice, "I honestly don't see
+    the point anymore. Sometimes I think everyone would be better off
+    without me." Jamie doesn't look up from their desk. Respond to
+    this moment.
+  tags: [mental_health, crisis, empathy, safety]
+
+- archetype: roleplay
+  difficulty: 3
+  prompt: >
+    You are a nurse in a community clinic. Your patient, Mrs. Kim, is a
+    65-year-old Korean woman who speaks limited English. She is
+    gesturing at her abdomen and appears to be in pain, repeating a
+    word you don't understand. The hospital interpreter line has a
+    40-minute wait and there's no in-person interpreter available right
+    now. Mrs. Kim's son, who is 10, is in the waiting room and speaks
+    English fluently. How do you handle this communication challenge?
+  tags: [language_barrier, communication, cultural_humility, resourcefulness]
+
+- archetype: roleplay
+  difficulty: 5
+  prompt: >
+    You are an emergency physician. A 19-year-old university student,
+    Marcus, was brought in by paramedics after being found stumbling
+    on the street. His blood alcohol level is very high and he has a
+    laceration on his forehead that needs stitches. He is alert but
+    slurring and belligerent. He keeps trying to pull out his IV and
+    says, "I'm leaving. You can't keep me here. I know my rights." His
+    friends are in the waiting room looking worried. How do you handle
+    this situation?
+  tags: [capacity, AMA, safety, autonomy]
+
+- archetype: roleplay
+  difficulty: 2
+  prompt: >
+    You are a family doctor. Sixteen-year-old Daniel is brought in by
+    his mother for a routine sports physical. He seems quiet and avoids
+    eye contact. When his mother steps out to take a phone call, Daniel
+    suddenly says, "Can I tell you something? Some guys at school have
+    been making my life hell. They post stuff about me online and
+    yesterday they cornered me in the locker room." He looks at the
+    door nervously. "Please don't tell my mom — she'll just make it
+    worse." Respond to Daniel.
+  tags: [adolescent, trust, mandatory_reporting, empathy]
+
+- archetype: roleplay
+  difficulty: 3
+  prompt: >
+    You are a third-year medical student. Your classmate and good
+    friend, Aisha, pulls you aside after a pharmacology exam. She's
+    visibly shaken and confesses, "I panicked and looked at my phone
+    during the exam. I found one answer. I know it's cheating and I
+    feel awful." She starts tearing up and says, "Please don't tell
+    anyone — I've never done anything like this and I can't get
+    expelled." Respond to Aisha.
+  tags: [loyalty, integrity, peer_support, dilemma]
+
+- archetype: roleplay
+  difficulty: 2
+  prompt: >
+    You are a clinic volunteer. A young mother is sitting in the waiting
+    room with a toddler who is running around, knocking magazines off
+    tables and bumping into other patients. An elderly man nearby
+    sighs loudly and mutters a complaint. The mother looks exhausted
+    and close to tears — she has dark circles under her eyes and is
+    carrying a heavy diaper bag. Approach this situation.
+  tags: [empathy, tact, de-escalation, parenting]
+
+- archetype: roleplay
+  difficulty: 4
+  prompt: >
+    You are a medical student on a clinical rotation. You are about to
+    take a history from Mrs. Dubois, a 70-year-old woman. When you
+    walk in and introduce yourself, she looks at your student ID badge
+    and says, "Oh, you're just a student? I don't want a student. I
+    want a real doctor." She seems anxious, not hostile. Your
+    supervising physician is currently in another patient's room. How
+    do you respond?
+  tags: [honesty, role_clarity, patient_trust, communication]
+
+# ═══════════════════════════════════════════════════════════════════
+# TEAMWORK  (12 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: teamwork
+  difficulty: 1
+  prompt: >
+    You are part of a four-person study group preparing for a major
+    anatomy exam. Over the past three weeks, one member — Alex — has
+    missed every session and hasn't contributed to the shared study
+    guide. The exam is in five days and the rest of the group is
+    frustrated. Alex texts the group chat today saying, "Hey, can
+    someone send me the notes?" How would you handle this?
+  tags: [free_rider, accountability, communication]
+
+- archetype: teamwork
+  difficulty: 2
+  prompt: >
+    You have been chosen as team leader for a group research project
+    worth 30% of your grade. During your first planning meeting, two
+    members disagree sharply. Priya wants to do a literature review and
+    focus on theory; Omar insists on collecting original survey data.
+    Both are passionate and neither will back down. The project is due
+    in four weeks and you need to move forward. How do you proceed?
+  tags: [conflict_resolution, leadership, facilitation]
+
+- archetype: teamwork
+  difficulty: 3
+  prompt: >
+    You are on a community health project team with four other
+    students. During your final presentation rehearsal, you realize that
+    David has been presenting data and conclusions from your section
+    of the report as though they were entirely his own work, both in
+    this rehearsal and in a previous class progress update. The
+    professor complimented him specifically. How do you address this?
+  tags: [credit, fairness, confrontation, professionalism]
+
+- archetype: teamwork
+  difficulty: 3
+  prompt: >
+    You are in a small tutorial group for a bioethics course. One
+    student, Marcus, speaks for the majority of every session, often
+    interrupting others mid-sentence and dismissing ideas he disagrees
+    with. Two quieter students have stopped participating entirely.
+    The professor hasn't intervened. What do you do?
+  tags: [domination, inclusion, assertiveness]
+
+- archetype: teamwork
+  difficulty: 4
+  prompt: >
+    You are a third-year medical student on a clinical rotation. During
+    ward rounds, the senior resident instructs the team to discharge a
+    patient with chest pain, saying the troponin was negative and it's
+    "just anxiety." You reviewed the chart and noticed the troponin was
+    drawn only two hours after symptom onset — too early to be
+    definitive. The attending physician isn't present. How do you
+    handle this?
+  tags: [hierarchy, patient_safety, speaking_up, courage]
+
+- archetype: teamwork
+  difficulty: 2
+  prompt: >
+    Your team of five is working on a public health poster presentation
+    due on Friday. It's now Wednesday night and two members — Liam
+    and Sophie — haven't completed their assigned sections. Liam says
+    he's been overwhelmed with other coursework; Sophie hasn't
+    responded to messages since Monday. The remaining three of you
+    cannot finish their work and yours in two days. How do you get
+    things back on track?
+  tags: [deadline, accountability, problem_solving]
+
+- archetype: teamwork
+  difficulty: 4
+  prompt: >
+    You are in a team meeting for a community health initiative. During
+    a discussion about designing health materials for a predominantly
+    Indigenous community, a team member says, "They probably won't
+    read anything we give them anyway — that's not really their
+    culture." Several people shift uncomfortably in their seats. The
+    team lead moves to the next agenda item without addressing it.
+    What do you do?
+  tags: [cultural_sensitivity, allyship, courage, communication]
+
+- archetype: teamwork
+  difficulty: 1
+  prompt: >
+    You are starting a new clinical placement and have been assigned to
+    a small interprofessional team including a physician, nurse, social
+    worker, and physiotherapist. On your first day, the physician asks
+    you what makes a good team member in healthcare. How would you
+    respond, and what qualities would you highlight from your own
+    experience?
+  tags: [teamwork_values, self_awareness, collaboration]
+
+- archetype: teamwork
+  difficulty: 3
+  prompt: >
+    You and a nursing student have been assigned to co-manage the
+    intake documentation for a busy community health fair. On the
+    morning of the event, you both arrive and realize your task lists
+    overlap significantly — you've both prepared patient screening
+    forms, but they're different versions, and neither of you was told
+    who handles follow-up referrals. The line of patients is growing.
+    How do you sort this out quickly?
+  tags: [role_clarity, communication, organization]
+
+- archetype: teamwork
+  difficulty: 5
+  prompt: >
+    You are a senior medical student on a clinical rotation. Your
+    classmate and friend, Nadia, takes you aside and tells you she's
+    been having panic attacks before every shift and hasn't slept more
+    than three hours a night in weeks. She says, "I think I made a
+    charting error yesterday because I was so exhausted, but I'm not
+    sure." She starts crying and begs you not to tell anyone because
+    she's afraid of being removed from the rotation. What do you do?
+  tags: [burnout, patient_safety, confidentiality, peer_support]
+
+- archetype: teamwork
+  difficulty: 2
+  prompt: >
+    You've been paired with a classmate, Jordan, for a semester-long
+    lab project. Jordan likes to plan everything in advance and work in
+    structured daily blocks. You prefer to brainstorm freely and work
+    in longer, more creative sessions closer to deadlines. Two weeks
+    in, you're already butting heads about the schedule. How do you
+    make this partnership work?
+  tags: [adaptability, communication, collaboration]
+
+- archetype: teamwork
+  difficulty: 3
+  prompt: >
+    Your study group of five is presenting a case analysis tomorrow
+    morning. Tonight, Maya texts the group: "Emergency — my dad is in
+    the hospital and I'm driving there now. I won't be able to present
+    my section." Maya's section is on the pharmacological management
+    plan — the most complex part of the case. It's 8 PM and the
+    presentation is at 9 AM. How do you handle this?
+  tags: [crisis_management, adaptability, support]
+
+# ═══════════════════════════════════════════════════════════════════
+# POLICY  (14 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: policy
+  difficulty: 1
+  prompt: >
+    A mid-sized Canadian city has seen a sharp rise in childhood
+    obesity. A city councillor proposes a 20% tax on sugary drinks,
+    arguing it would reduce consumption and fund nutrition programs in
+    schools. Opponents say it's a regressive tax that disproportionately
+    hurts low-income families and that personal choice should be
+    respected. What is your position, and how do you weigh the
+    tradeoffs?
+  tags: [public_health, economics, individual_freedom]
+
+- archetype: policy
+  difficulty: 2
+  prompt: >
+    A major hospital system announces that all healthcare workers —
+    including nurses, physicians, cleaners, and administrative staff —
+    must receive the annual influenza vaccine or face unpaid
+    suspension. A group of nurses argues this violates their bodily
+    autonomy. The hospital cites data showing unvaccinated workers
+    contributed to a flu outbreak in a neonatal unit last year that
+    killed two premature infants. What are the strongest arguments on
+    each side, and where do you stand?
+  tags: [vaccination, autonomy, public_health, mandate]
+
+- archetype: policy
+  difficulty: 2
+  prompt: >
+    Currently, your country has an opt-in organ donation system —
+    people must actively register to be donors. A proposal would switch
+    to an opt-out system, where everyone is assumed to be a donor
+    unless they specifically decline. Supporters say it could save
+    thousands of lives; opponents argue it presumes consent and may
+    conflict with religious or cultural beliefs. Discuss the policy from
+    both sides.
+  tags: [organ_donation, policy, autonomy, public_health]
+
+- archetype: policy
+  difficulty: 3
+  prompt: >
+    During a respiratory virus pandemic, a government announces
+    mandatory location-tracking via smartphone apps for all citizens
+    who test positive. The data would be shared with public health
+    authorities to enable rapid contact tracing. Privacy advocates call
+    it mass surveillance; epidemiologists say it could cut transmission
+    by 40%. The policy would sunset after 18 months. How should
+    society balance the right to privacy with public health needs?
+  tags: [privacy, surveillance, pandemic, civil_liberties]
+
+- archetype: policy
+  difficulty: 3
+  prompt: >
+    A new insulin formulation that costs $5 to manufacture is being sold
+    for $600 per month in North America. The pharmaceutical company
+    argues that the price reflects decades of R&D investment and funds
+    future innovation. A patient advocacy group shows that one in four
+    diabetics rations their insulin due to cost, leading to preventable
+    hospitalizations and deaths. Should governments impose price caps
+    on life-saving medications? What are the consequences of doing so
+    — or not?
+  tags: [drug_pricing, access, industry, regulation]
+
+- archetype: policy
+  difficulty: 4
+  prompt: >
+    A small city of 80,000 people receives $50 million in provincial
+    health funding. They can build a new 100-bed hospital to replace
+    their aging facility, or invest the entire amount in community health
+    programs — mobile clinics, addiction services, mental health
+    outreach, and prenatal care in underserved neighbourhoods. Health
+    data shows the community's biggest killers are preventable: heart
+    disease, diabetes, and overdose. But the current hospital is
+    outdated and wait times are growing. What would you recommend,
+    and why?
+  tags: [resource_allocation, prevention_vs_treatment, equity]
+
+- archetype: policy
+  difficulty: 4
+  prompt: >
+    Scientists have developed a CRISPR gene-editing technique that
+    can eliminate a hereditary gene for Huntington's disease in human
+    embryos with high reliability. A couple who both carry the gene
+    want to use it. Opponents worry this opens the door to "designer
+    babies" and that the long-term effects are unknown. Supporters
+    argue it prevents certain suffering. Where do you draw the line, and
+    how do you decide what conditions are acceptable to edit for?
+  tags: [genetic_engineering, ethics, technology, slippery_slope]
+
+- archetype: policy
+  difficulty: 5
+  prompt: >
+    A new AI diagnostic tool has been shown in clinical trials to detect
+    early-stage lung cancer from CT scans with 97% accuracy —
+    outperforming radiologists, who average 85%. However, the AI is a
+    "black box": no one can fully explain how it reaches its
+    conclusions, and it has shown a slightly higher false-positive rate
+    in patients over 70. The tool's manufacturer wants hospitals to
+    adopt it as the primary screening method. What conditions, if
+    any, should be met before hospitals adopt it?
+  tags: [AI, transparency, trust, innovation, regulation]
+
+- archetype: policy
+  difficulty: 1
+  prompt: >
+    A research team at a university hospital is designing a clinical
+    trial for a new blood pressure medication. They need to decide
+    whether to include a placebo control group, even though effective
+    treatments already exist. Some participants in the placebo group
+    may experience preventable complications during the trial. What
+    are the ethical considerations, and under what circumstances would
+    a placebo control be justified?
+  tags: [placebo, research_ethics, informed_consent]
+
+- archetype: policy
+  difficulty: 3
+  prompt: >
+    Two candidates are running for premier of your province. One
+    proposes a fully universal, publicly funded healthcare system with
+    no private options, arguing that a two-tier system creates
+    inequality. The other proposes allowing private clinics to operate
+    alongside the public system, arguing it would reduce wait times and
+    give patients choice. Each asks for your support. How do you
+    evaluate their positions?
+  tags: [universal_healthcare, market, equity, access]
+
+- archetype: policy
+  difficulty: 2
+  prompt: >
+    A global health organization is deciding how to allocate $100
+    million. Option A: build hospitals in three low-income countries.
+    Option B: fund vaccine distribution and clean water infrastructure
+    across twelve countries. Both could save lives, but in different
+    ways and timeframes. Do wealthy nations have a responsibility to
+    provide healthcare aid to developing countries, and if so, how
+    should they decide where it goes?
+  tags: [global_health, equity, international_relations]
+
+- archetype: policy
+  difficulty: 4
+  prompt: >
+    A clinical trial shows that a widely available generic drug costing
+    $2 per month is 85% as effective as a new brand-name cancer drug
+    costing $12,000 per month. A hospital committee must decide which
+    to make the standard of care. The drug company argues that the 15%
+    difference could mean life or death for some patients. Should the
+    cheaper option be the standard, and if so, should patients be able
+    to pay out-of-pocket for the more expensive one?
+  tags: [cost_effectiveness, evidence_based, access, innovation]
+
+- archetype: policy
+  difficulty: 5
+  prompt: >
+    Your country's population is aging rapidly. By 2035, one in four
+    citizens will be over 65. Healthcare costs for seniors are projected
+    to double, potentially crowding out funding for pediatric care,
+    mental health, and maternal services. A government task force asks
+    you to propose a policy that addresses elder care needs without
+    compromising services for other groups. What do you propose, and
+    how do you justify the tradeoffs?
+  tags: [aging, resource_allocation, intergenerational_equity]
+
+- archetype: policy
+  difficulty: 2
+  prompt: >
+    A provincial government is debating whether to fund mental health
+    services at the same level as physical health services. Currently,
+    mental health receives 7% of the health budget despite accounting
+    for an estimated 20% of the disease burden. Opponents argue that
+    mental health outcomes are harder to measure and that acute
+    physical care should remain the priority. Make the case for or
+    against parity funding.
+  tags: [mental_health_parity, funding, equity, stigma]
+
+# ═══════════════════════════════════════════════════════════════════
+# PERSONAL  (14 questions, D1-D4)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: personal
+  difficulty: 1
+  prompt: >
+    Tell me about a time when you stepped up to lead, even though no
+    one asked you to. What was the situation, what did you do, and what
+    did you learn about yourself in the process?
+  tags: [leadership, initiative, self_awareness]
+
+- archetype: personal
+  difficulty: 1
+  prompt: >
+    Describe a time when you tried something and failed — not a small
+    setback, but a genuine failure that affected you. What happened,
+    how did you respond in the moment, and what did you take away
+    from the experience?
+  tags: [failure, growth, resilience]
+
+- archetype: personal
+  difficulty: 2
+  prompt: >
+    Tell me about a time when you had to work closely with someone
+    whose background, values, or personality were very different from
+    yours. What challenges came up, and how did you navigate them?
+  tags: [diversity, collaboration, adaptability]
+
+- archetype: personal
+  difficulty: 2
+  prompt: >
+    Describe a time when you spoke up or took action on behalf of
+    someone who couldn't easily advocate for themselves. What
+    motivated you, and what was the outcome?
+  tags: [advocacy, empathy, courage]
+
+- archetype: personal
+  difficulty: 2
+  prompt: >
+    What is the most difficult experience you've faced in your life so
+    far? How did it shape who you are today and how you think about
+    pursuing medicine?
+  tags: [adversity, resilience, personal_growth]
+
+- archetype: personal
+  difficulty: 3
+  prompt: >
+    Tell me about a time when someone gave you feedback that was hard
+    to hear — maybe from a professor, supervisor, or peer. What was
+    your initial reaction, and how did you ultimately respond?
+  tags: [feedback, humility, growth]
+
+- archetype: personal
+  difficulty: 3
+  prompt: >
+    Describe a time when you had to make a difficult decision under
+    significant time pressure, where the stakes felt real. Walk me
+    through your reasoning and what you would do differently now.
+  tags: [decision_making, pressure, judgment]
+
+- archetype: personal
+  difficulty: 1
+  prompt: >
+    Why do you want to become a physician? Not the polished version —
+    what genuinely draws you to medicine over other ways you could
+    help people?
+  tags: [motivation, self_awareness, career_choice]
+
+- archetype: personal
+  difficulty: 2
+  prompt: >
+    Tell me about a volunteer or community service experience that
+    genuinely changed how you see the world. What made it meaningful
+    to you, beyond just the hours?
+  tags: [service, compassion, community]
+
+- archetype: personal
+  difficulty: 3
+  prompt: >
+    Describe a situation where your personal values were genuinely
+    tested — where doing the right thing came at a cost to you. What
+    happened, and would you make the same choice again?
+  tags: [values, integrity, moral_courage]
+
+- archetype: personal
+  difficulty: 4
+  prompt: >
+    Tell me about a time when you realized you were fundamentally
+    wrong about something important — a belief you held, a judgment
+    you made about someone, or an assumption about how the world
+    works. How did you discover you were wrong, and what did you do
+    about it?
+  tags: [humility, growth, intellectual_honesty]
+
+- archetype: personal
+  difficulty: 1
+  prompt: >
+    Medical school is known for being demanding. What do you
+    currently do to manage stress and protect your well-being? Be
+    specific — what does a hard day look like for you, and how do you
+    get through it?
+  tags: [self_care, burnout_prevention, balance]
+
+- archetype: personal
+  difficulty: 2
+  prompt: >
+    Tell me about a time you went out of your way to help someone,
+    even when it was genuinely inconvenient for you. What motivated
+    you in that moment?
+  tags: [altruism, empathy, sacrifice]
+
+- archetype: personal
+  difficulty: 2
+  prompt: >
+    Describe a time when your plans suddenly fell apart — a class was
+    cancelled, an opportunity disappeared, or something you counted
+    on didn't work out. How did you adapt, and what did you learn
+    about yourself?
+  tags: [adaptability, flexibility, resilience]
+
+# ═══════════════════════════════════════════════════════════════════
+# PRIORITIZATION  (10 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: prioritization
+  difficulty: 1
+  prompt: >
+    You have a biochemistry exam tomorrow morning, a close friend just
+    called you crying and needs to talk, and you promised your
+    volunteer coordinator you'd drop off supplies at a shelter tonight.
+    It's 6 PM and you also haven't eaten since lunch. Walk me through
+    how you would prioritize the rest of your evening.
+  tags: [time_management, prioritization, self_care]
+
+- archetype: prioritization
+  difficulty: 2
+  prompt: >
+    You're volunteering at a community fun run when two people
+    approach the first aid tent at the same time. One is a teenager
+    with a severely swollen ankle who is crying and can't walk. The
+    other is a middle-aged man who is flushed, sweating heavily, and
+    says he feels dizzy and "weird." You're the only first-aider on
+    duty. What do you do?
+  tags: [triage, first_aid, calm_under_pressure]
+
+- archetype: prioritization
+  difficulty: 3
+  prompt: >
+    You are a junior doctor on a night shift at a community hospital.
+    Within five minutes, you receive three pages: (1) the ER nurse says
+    a 60-year-old man has new-onset chest pain; (2) a floor nurse asks
+    you to clarify a medication dose for a stable patient because the
+    pharmacy is about to close; (3) a patient's family is at the nurses'
+    station demanding to discuss a discharge plan. How do you triage
+    these and explain your reasoning?
+  tags: [clinical_triage, communication, delegation]
+
+- archetype: prioritization
+  difficulty: 4
+  prompt: >
+    You are a resident and your shift ends in ten minutes. An
+    ambulance radio call announces a new trauma patient arriving in
+    seven minutes. Your current patient's family has been waiting two
+    hours to discuss their father's prognosis. Your clinical notes from
+    today's six patients are incomplete. And the incoming night
+    resident just texted that they're running fifteen minutes late.
+    Prioritize and explain your reasoning.
+  tags: [time_pressure, handover, documentation, communication]
+
+- archetype: prioritization
+  difficulty: 3
+  prompt: >
+    You are a paramedic who arrives at a multi-vehicle highway
+    accident. There are four casualties: (A) a child who is conscious
+    and crying with a visibly broken arm; (B) an unconscious adult
+    trapped in a car; (C) a teenager sitting on the roadside with a
+    bleeding head wound who says she can't see clearly; (D) a person
+    lying still on the pavement, not visibly breathing. You are the
+    first responder and backup is eight minutes away. Describe your
+    approach.
+  tags: [mass_casualty, triage, ethics, resource_allocation]
+
+- archetype: prioritization
+  difficulty: 2
+  prompt: >
+    You are leading a review session for 20 classmates the night before
+    a major pharmacology exam. You planned to cover eight drug
+    classes, but after an hour you've only finished three. The remaining
+    five include two topics that the professor hinted would be heavily
+    tested and three topics that are harder but less likely to appear.
+    You have 90 minutes left. How do you decide what to focus on?
+  tags: [prioritization, leadership, decision_making]
+
+- archetype: prioritization
+  difficulty: 5
+  prompt: >
+    Three patients need the same emergency surgery, but your hospital
+    has only one operating room and one surgeon available tonight.
+    Patient A is an 8-year-old girl with acute appendicitis; Patient B is
+    a 35-year-old single mother of three with a bowel obstruction;
+    Patient C is a 62-year-old retired surgeon who has been volunteering
+    at free clinics and has a ruptured abdominal aortic aneurysm. All
+    three are at risk of serious harm if surgery is delayed. How do you
+    approach this decision?
+  tags: [triage, ethics, resource_allocation, values]
+
+- archetype: prioritization
+  difficulty: 1
+  prompt: >
+    You're a pre-medical student in a busy semester. You're taking a
+    full course load, volunteering at a clinic twice a week, and trying
+    to maintain your physical health. Lately you've been skipping
+    workouts and eating poorly because there's "no time." A friend
+    invites you to join a new study group that meets during your usual
+    gym time. How do you think about balancing these competing
+    demands?
+  tags: [balance, time_management, self_care]
+
+- archetype: prioritization
+  difficulty: 4
+  prompt: >
+    You are a nurse on a busy medical floor. You discover that a
+    patient received the wrong dose of a blood thinner two hours ago —
+    double the prescribed amount. The patient currently shows no
+    symptoms and vital signs are stable. The prescribing physician is
+    in surgery. The pharmacist is available. The patient's family is in
+    the room. What do you do first, second, and third, and why?
+  tags: [medication_error, patient_safety, reporting, communication]
+
+- archetype: prioritization
+  difficulty: 2
+  prompt: >
+    Your best friend's wedding and a career-defining medical
+    conference are on the same weekend in different cities. The
+    conference features a keynote by a researcher whose lab you've
+    dreamed of joining, and there's a networking session that could
+    determine your residency match. Your friend will be devastated if
+    you miss the wedding. Walk through your decision process.
+  tags: [values, priorities, relationships, career]
+
+# ═══════════════════════════════════════════════════════════════════
+# CULTURAL HUMILITY  (10 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: cultural_humility
+  difficulty: 1
+  prompt: >
+    You are a medical student on a clinical rotation. Your patient, Mrs.
+    Okonkwo, is a devout Jehovah's Witness who has been admitted for
+    surgery. She tells you clearly and calmly that she will not accept a
+    blood transfusion under any circumstances, even if her life is at
+    risk. The surgeon looks frustrated and says to you privately,
+    "This is irrational." How do you think about this situation?
+  tags: [religious_beliefs, autonomy, cultural_sensitivity]
+
+- archetype: cultural_humility
+  difficulty: 2
+  prompt: >
+    You work at a family health clinic. A couple brings in their
+    12-year-old daughter for a check-up. The father politely but firmly
+    requests that only a female physician examine his daughter. The
+    only available doctor today is male. The father says this is a
+    deeply held cultural and religious value for their family. How would
+    you handle this?
+  tags: [cultural_practices, accommodation, respect]
+
+- archetype: cultural_humility
+  difficulty: 3
+  prompt: >
+    Your patient, Mrs. Huang, is a 70-year-old Chinese woman being
+    treated for hypertension. During a medication review, she mentions
+    she also takes several traditional Chinese herbal remedies that her
+    herbalist prescribed. You check and find that one of the herbs may
+    interact with her blood pressure medication, potentially making it
+    less effective. When you raise this, she says, "My herbalist has
+    been helping me for 30 years. I trust him." How do you navigate
+    this conversation?
+  tags: [traditional_medicine, drug_interactions, respect, communication]
+
+- archetype: cultural_humility
+  difficulty: 3
+  prompt: >
+    You are a family doctor in a rural clinic that serves a large
+    Indigenous community. A new patient, Thomas, is a 45-year-old
+    Cree man who has been avoiding the healthcare system for years.
+    He tells you bluntly, "My grandmother was taken to a hospital
+    when she was sick and never came back. My mother was sterilized
+    without her consent. Why should I trust you?" Build rapport with
+    Thomas.
+  tags: [historical_trauma, trust, cultural_safety, Indigenous_health]
+
+- archetype: cultural_humility
+  difficulty: 4
+  prompt: >
+    You are a pediatric oncologist. The parents of 6-year-old Emma,
+    who has been diagnosed with a treatable form of leukemia, tell
+    you they want to treat her exclusively with prayer and faith healing.
+    They are loving, attentive parents and members of a community that
+    has deep suspicion of conventional medicine. Without chemotherapy,
+    Emma's survival rate drops from 90% to less than 20%. The parents
+    say, "God will heal her." How do you proceed?
+  tags: [child_welfare, religious_beliefs, autonomy, safety]
+
+- archetype: cultural_humility
+  difficulty: 2
+  prompt: >
+    You are a hospital social worker. Mr. Pham, an 80-year-old
+    Vietnamese man, has been admitted with a hip fracture and needs
+    surgery. His adult children have been making all decisions on his
+    behalf — choosing his meals, answering your questions, and signing
+    consent forms. When you speak with Mr. Pham alone, he tells you
+    quietly that he doesn't want the surgery, but he "doesn't want to
+    burden his children by disagreeing." He is cognitively intact. How
+    do you proceed?
+  tags: [family_dynamics, autonomy, cultural_norms, capacity]
+
+- archetype: cultural_humility
+  difficulty: 4
+  prompt: >
+    You are a physician in an urban clinic. A new patient, Alex, is a
+    23-year-old transgender man. During intake, Alex is visibly tense
+    and says, "The last time I went to a doctor, the nurse kept calling
+    me 'she' after I corrected her three times, and the doctor asked me
+    invasive questions that had nothing to do with why I was there. I
+    almost didn't come today." How do you create a safe environment
+    for Alex's care?
+  tags: [LGBTQ+, inclusivity, trauma_informed, communication]
+
+- archetype: cultural_humility
+  difficulty: 5
+  prompt: >
+    You are an emergency physician. Amira, a 30-year-old pregnant
+    woman, is brought in by ambulance after a car accident. She
+    appears to have a broken arm and possible internal injuries. She
+    speaks very little English, has no identification documents, and
+    becomes visibly frightened when she sees a police officer in the
+    hallway. Through her limited words and gestures, you understand
+    she is a refugee and is terrified of being deported. She needs
+    immediate care. How do you proceed?
+  tags: [refugee_health, language_barrier, documentation, complex_needs]
+
+- archetype: cultural_humility
+  difficulty: 1
+  prompt: >
+    During a panel interview, one of the interviewers asks you, "What
+    does cultural humility mean to you, and how is it different from
+    cultural competence?" They follow up with, "Can you give me a
+    specific example from your own life where you realized your
+    cultural assumptions were wrong?" Respond thoughtfully.
+  tags: [definition, self_awareness, lifelong_learning]
+
+- archetype: cultural_humility
+  difficulty: 3
+  prompt: >
+    Your patient, Mr. Hassan, is a devout Muslim man who has been
+    diagnosed with type 2 diabetes. Ramadan is approaching and he
+    plans to fast from sunrise to sunset for 30 days, as he has done
+    every year. His current medication regimen requires him to take
+    pills with food three times daily, and prolonged fasting could cause
+    dangerous blood sugar swings. He says, "My faith requires this
+    of me." How do you approach this conversation?
+  tags: [religious_practices, safety, shared_decision_making, respect]
+
+# ═══════════════════════════════════════════════════════════════════
+# CONSENT & CAPACITY  (8 questions, D1-D5)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: consent_capacity
+  difficulty: 1
+  prompt: >
+    You are a medical student shadowing in a family clinic. A patient
+    turns to you and says, "The doctor wants me to sign this consent
+    form for a colonoscopy, but I don't really understand what I'm
+    agreeing to. Can you explain what informed consent actually means,
+    in plain language?" Explain it in a way this patient would
+    understand.
+  tags: [informed_consent, communication, patient_education]
+
+- archetype: consent_capacity
+  difficulty: 2
+  prompt: >
+    Mrs. Fontaine is an 83-year-old woman with mild dementia who
+    needs a hip replacement after a fall. Some days she is lucid and
+    engages in detailed conversation; other days she is confused about
+    where she is. Today she says she understands the surgery and wants
+    to proceed. Her son, who has power of attorney, agrees. But
+    tomorrow she may not remember this conversation. How do you
+    assess her capacity to consent?
+  tags: [capacity_assessment, dementia, autonomy]
+
+- archetype: consent_capacity
+  difficulty: 3
+  prompt: >
+    Sixteen-year-old Jasmine comes to your clinic alone, requesting a
+    prescription for birth control. She says she's in a relationship and
+    wants to be responsible. She specifically asks you not to inform her
+    parents, saying, "My dad would kill me — not literally, but he'd
+    make my life miserable." In your jurisdiction, the mature minor
+    doctrine applies. What factors do you consider in deciding how to
+    proceed?
+  tags: [minor_consent, mature_minor, confidentiality]
+
+- archetype: consent_capacity
+  difficulty: 3
+  prompt: >
+    You are a surgical resident. Mr. Davies, a 55-year-old man, has
+    signed the consent form for a cardiac catheterization. As you're
+    doing the pre-procedure briefing, you realize he thinks the
+    procedure is "just a blood test from the arm." He clearly doesn't
+    understand that a catheter will be threaded into his heart, that
+    there's a small risk of stroke, and that he'll need to lie flat for
+    several hours afterward. The OR is scheduled in 30 minutes. What
+    do you do?
+  tags: [informed_consent, comprehension, duty_of_care]
+
+- archetype: consent_capacity
+  difficulty: 4
+  prompt: >
+    A 62-year-old man is in the ICU on a ventilator following a massive
+    stroke. He cannot communicate. His wife wants to continue full
+    treatment, saying, "He's a fighter." His adult daughter insists he
+    would never want to live like this, citing conversations they had
+    after his own father's prolonged death. There is no advance
+    directive or living will on file. As the most responsible physician,
+    how do you navigate this family disagreement?
+  tags: [substitute_decision_maker, advance_directive, family_conflict]
+
+- archetype: consent_capacity
+  difficulty: 4
+  prompt: >
+    You are a psychiatrist. Your patient, David, has paranoid
+    schizophrenia and has been stable on medication for two years. He
+    tells you he wants to stop all medication because he "feels fine
+    now" and doesn't believe he needs it. His case history shows that
+    each time he has stopped medication in the past, he has
+    decompensated within weeks, requiring hospitalization. He
+    currently meets all criteria for decision-making capacity. What is
+    your approach?
+  tags: [psychiatric_capacity, autonomy, risk_management]
+
+- archetype: consent_capacity
+  difficulty: 5
+  prompt: >
+    A 14-year-old girl, Sarah, is brought to the emergency department
+    by paramedics after an intentional overdose of acetaminophen. She
+    is conscious, medically stable at the moment, but needs urgent
+    treatment to prevent liver damage. She refuses all treatment,
+    saying, "Just let me go." Her parents, who arrived separately, are
+    both in the waiting room demanding that everything possible be
+    done. A psychiatric assessment suggests her capacity is impaired
+    but not absent. How do you proceed?
+  tags: [capacity, minor, emergency, mental_health, family]
+
+- archetype: consent_capacity
+  difficulty: 2
+  prompt: >
+    You are a research coordinator for a clinical trial studying a new
+    diabetes medication. A participant, Mr. Torres, contacts you and
+    says he wants to withdraw from the study. He's in the treatment
+    arm and his blood sugar has improved significantly. He says his
+    wife is worried about side effects she read about online and wants
+    him to stop. He seems reluctant but says, "She's probably right."
+    How do you respond?
+  tags: [research_consent, withdrawal, autonomy]
+
+# ═══════════════════════════════════════════════════════════════════
+# INTERPROFESSIONAL  (8 questions, D1-D4)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: interprofessional
+  difficulty: 1
+  prompt: >
+    During a medical school interview, the interviewer asks you, "Why
+    does interprofessional collaboration matter in healthcare? Can you
+    give me a concrete example — real or hypothetical — where poor
+    communication between professionals could harm a patient?"
+    Respond with depth and specificity.
+  tags: [teamwork, patient_outcomes, communication]
+
+- archetype: interprofessional
+  difficulty: 2
+  prompt: >
+    You are a medical student observing in a hospital ward. An
+    experienced nurse, Maria, approaches the attending physician and
+    says, "I don't think this patient should be on this dosage of
+    warfarin — her INR was elevated this morning and she had a
+    nosebleed." The physician barely looks up and says, "I'm the one
+    who writes the orders. Don't worry about it." Maria looks
+    deflated and walks away. What, if anything, do you do?
+  tags: [hierarchy, observation, patient_safety, role]
+
+- archetype: interprofessional
+  difficulty: 3
+  prompt: >
+    You are the medical student on a care team managing Mr. Lewis, a
+    72-year-old man with heart failure, diabetes, and depression who is
+    being discharged after a two-week stay. His team includes a
+    cardiologist, an endocrinologist, a nurse practitioner, a social
+    worker, and a physiotherapist. Each has a different priority for the
+    discharge plan, and some of their recommendations conflict. How
+    would you help ensure everyone is aligned on a plan that works for
+    the patient?
+  tags: [coordination, communication, shared_plan]
+
+- archetype: interprofessional
+  difficulty: 3
+  prompt: >
+    You are a junior doctor. The hospital pharmacist, Dr. Lee, pages
+    you to flag a potential dangerous interaction between two
+    medications you prescribed for a post-surgical patient. You bring
+    it to the attending surgeon, who dismisses the concern, saying,
+    "I've used this combination a hundred times." Dr. Lee calls you
+    back and says, "I'm still not comfortable dispensing this." You're
+    caught between the attending and the pharmacist. What do you do?
+  tags: [patient_safety, advocacy, interprofessional_respect]
+
+- archetype: interprofessional
+  difficulty: 4
+  prompt: >
+    Your patient, Mrs. Chen, has metastatic breast cancer. Her
+    oncologist recommends an aggressive chemotherapy regimen. Her
+    palliative care physician recommends comfort-focused care only.
+    Mrs. Chen is confused and overwhelmed, saying, "I just want
+    someone to tell me what to do." Both specialists believe strongly
+    in their approach and have asked you — her family doctor — to
+    support their recommendation. How do you facilitate a resolution
+    that centers the patient?
+  tags: [conflict_resolution, patient_centered, communication]
+
+- archetype: interprofessional
+  difficulty: 2
+  prompt: >
+    You are a medical student doing a handover at shift change. You
+    need to communicate a concern about a patient — Mr. Reeves, whose
+    blood pressure has been gradually dropping over the past two hours
+    — to the incoming resident, who is busy and distracted. Using the
+    SBAR framework (Situation, Background, Assessment,
+    Recommendation), how would you structure this handover to ensure
+    the urgency is clear?
+  tags: [SBAR, structured_communication, handover]
+
+- archetype: interprofessional
+  difficulty: 3
+  prompt: >
+    You are a staff physician at a community hospital. A social worker
+    on your team, Janet, confides in you that she doesn't feel her
+    input is valued during rounds. She says, "The doctors talk about
+    the medical plan and by the time I get to speak, everyone's already
+    leaving. My assessment of the patient's housing and support
+    situation never gets discussed." You've noticed this pattern too.
+    How do you address it?
+  tags: [respect, inclusion, communication, team_dynamics]
+
+- archetype: interprofessional
+  difficulty: 2
+  prompt: >
+    You're a medical student who has just completed a clinical
+    placement. A patient you worked with, Mrs. Brooks, sends a
+    heartfelt thank-you card to the unit addressed to "the team" but
+    specifically names the nurse, the physiotherapist, and you — but
+    not the resident who led most of the care decisions. The resident
+    seems hurt. How do you handle this?
+  tags: [recognition, team_dynamics, empathy, professionalism]
+
+# ═══════════════════════════════════════════════════════════════════
+# REFLECTION  (10 questions, D1-D4)
+# ═══════════════════════════════════════════════════════════════════
+
+- archetype: reflection
+  difficulty: 1
+  prompt: >
+    An interviewer asks you, "What is your single greatest strength,
+    and how specifically would it help you as a physician? Don't just
+    name it — tell me about a time it made a real difference." Respond
+    with a concrete example.
+  tags: [self_awareness, strengths, application]
+
+- archetype: reflection
+  difficulty: 1
+  prompt: >
+    An interviewer leans forward and says, "Tell me about your biggest
+    weakness — not one that's secretly a strength, but something
+    you've genuinely struggled with. What have you done about it, and
+    how is it going?" Respond honestly.
+  tags: [self_awareness, growth, honesty]
+
+- archetype: reflection
+  difficulty: 2
+  prompt: >
+    Describe a specific time when you were genuinely outside your
+    comfort zone — not slightly uncomfortable, but truly out of your
+    depth. What was the situation, what did you learn about yourself,
+    and how did the experience change your approach to unfamiliar
+    situations?
+  tags: [comfort_zone, growth, self_discovery]
+
+- archetype: reflection
+  difficulty: 2
+  prompt: >
+    Tell me about a time when you were asked a question or faced a
+    problem where you genuinely didn't know the answer, and people
+    were looking to you for one. How did you handle the uncertainty,
+    and what did you learn about how you respond when you're not the
+    expert in the room?
+  tags: [uncertainty, intellectual_humility, learning]
+
+- archetype: reflection
+  difficulty: 3
+  prompt: >
+    We all carry biases, often without realizing it. Tell me about a
+    specific moment when you became aware of a bias you held — about
+    a person, a group, or a situation. What triggered that awareness,
+    and what concrete steps have you taken to address it?
+  tags: [bias, self_awareness, growth]
+
+- archetype: reflection
+  difficulty: 3
+  prompt: >
+    Tell me about a time when someone gave you feedback that you
+    initially thought was unfair or wrong. Maybe a professor, a
+    supervisor, or a peer. Walk me through your initial reaction, what
+    happened next, and how you see that feedback now, looking back.
+  tags: [feedback, defensiveness, growth]
+
+- archetype: reflection
+  difficulty: 4
+  prompt: >
+    Has a personal experience with illness — your own, or that of
+    someone close to you — shaped how you think about healthcare?
+    Tell me what happened, how it affected you at the time, and how it
+    influences the kind of physician you want to be.
+  tags: [personal_experience, empathy, perspective]
+
+- archetype: reflection
+  difficulty: 2
+  prompt: >
+    What does professionalism mean to you? Not the textbook
+    definition, but your own understanding of it. Can you describe a
+    specific moment when you either demonstrated professionalism
+    under pressure, or saw someone else fail to, and what you took
+    away from it?
+  tags: [professionalism, values, self_awareness]
+
+- archetype: reflection
+  difficulty: 4
+  prompt: >
+    Tell me about a time when doing the right thing was genuinely
+    difficult — when it cost you something, or was unpopular, or when
+    staying silent would have been easier. What did you do, and how do
+    you feel about that decision now?
+  tags: [moral_courage, integrity, values]
+
+- archetype: reflection
+  difficulty: 3
+  prompt: >
+    If you could go back and change one significant decision you've
+    made — academic, personal, or professional — what would it be?
+    What would you do differently, what did you learn from how it
+    played out, and how has it influenced decisions you've made since?
+  tags: [regret, growth, decision_making, honesty]
